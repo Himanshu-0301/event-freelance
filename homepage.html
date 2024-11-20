@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Homepage </title>
+  <link rel="stylesheet" href="landing.css">
+  <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #eee;
+      color: #000;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      background-color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <img src="images/logo-removebg-preview (1).png">
+      </a>
+      <ul class="menu-links">
+        <li><a href="#">Explore</a></li>
+        <li class="language-item">
+          <a href="#"><span class="material-symbols-outlined">language</span> English</a>
+        </li>
+        <li><a href="signup.html">Become a Seller</a></li>
+        <li><a href="signup.html">Sign In</a></li>
+        <li class="join-btn"><a href="login.html">Join Us</a></li>
+        <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+      </ul>
+      <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <div class="content">
+      <h1>Find the right freelance service, right away</h1>
+      <form action="#" class="search-form">
+        <input type="text" placeholder="Search for any service..." required>
+        <button class="material-symbols-outlined" type="submit">search</button>
+      </form>
+      <div class="popular-tags">
+        Popular:
+        <ul class="tags">
+          <li><a href="#">Website Design</a></li>
+          <li><a href="#">Logo Design</a></li>
+          <li><a href="#">AI Design</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-section">
+    <div class="container">
+      <h2>Popular Services</h2>
+      <div class="services-grid">
+        <div class="swiper featured-swiper">
+          <div class="swiper-wrapper">
+            <div class="service-item swiper-slide">
+              <h3>Event Planning & Management</h3>
+              <img src="images/eventmanagemen.jpg" alt="Event Planning">
+            </div>
+            <div class="service-item swiper-slide">
+              <a href="gig.html">
+              <h3>Logo Design</h3>
+              <img src="images/logodesign.jpeg" alt="Logo Design"></a>
+            </div>
+            <div class="service-item swiper-slide">
+              <a href="gig.html">
+              <h3>SEO</h3>
+              <img src="images/seo.webp" alt="SEO"></a>
+            </div>
+            <div class="service-item swiper-slide">
+              <a href="gig.html">
+              <h3>Card Design</h3>
+              <img src="images/carddesign.jpeg" alt="Card Design"></a>
+            </div>
+            <div class="service-item swiper-slide">
+              <a href="gig.html">
+              <h3>Photography</h3>
+              <img src="images/photography.jpg" alt="Photography"></a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps-container">
+      <div class="step">
+        <span class="material-symbols-outlined">person_add</span>
+        <h3>Step 1: Sign Up</h3>
+        <p>Create an account with us using your email or social login. It's quick and easy!</p>
+      </div>
+      <div class="step">
+        <span class="material-symbols-outlined">tune</span>
+        <h3>Step 2: Customize</h3>
+        <p>Choose your preferences and tailor the experience to your needs.</p>
+      </div>
+      <div class="step">
+        <span class="material-symbols-outlined">check_circle</span>
+        <h3>Step 3: Enjoy the Service</h3>
+        <p>Once set up, start using our service to achieve your goals.</p>
+      </div>
+      <div class="step">
+        <span class="material-symbols-outlined">support</span>
+        <h3>Step 4: Ongoing Support</h3>
+        <p>We're always here to help with customer support and updates!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-container">
+      <div class="testimonial">
+        <div class="client-info">
+          <span class="client-name">John Doe</span>
+          <span class="client-role">Project Manager, XYZ Corp</span>
+        </div>
+        <div class="rating">
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+        </div>
+        <p>"This app has completely transformed how we manage projects! Highly recommend it!"</p>
+      </div>
+      <div class="testimonial">
+        <div class="client-info">
+          <span class="client-name">Jane Smith</span>
+          <span class="client-role">CEO, ABC Ltd</span>
+        </div>
+        <div class="rating">
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+        </div>
+        <p>"An amazing platform that connects job seekers with employers efficiently!"</p>
+      </div>
+      <div class="testimonial">
+        <div class="client-info">
+          <span class="client-name">Mark Johnson</span>
+          <span class="client-role">Developer, Tech Solutions</span>
+        </div>
+        <div class="rating">
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+        </div>
+        <p>"A user-friendly interface that makes collaboration a breeze!"</p>
+      </div>
+      <div class="testimonial">
+        <div class="client-info">
+          <span class="client-name">Emily Davis</span>
+          <span class="client-role">Marketing Lead, Global Inc.</span>
+        </div>
+        <div class="rating">
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-half-fill"></i>
+        </div>
+        <p>"Our team's productivity has skyrocketed since we started using this app!"</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <h2>Ready to get started?</h2>
+    <p>Join our platform today and connect with top freelancers.</p>
+    <a href="login.html" class="cta-button">Get Started</a>
+  </section>
+
+  <footer>
+    <div class="footer-main">
+      <div class="footer-about">
+        <h3>About Us</h3>
+        <p>We are an all-in-one platform for innovators, creators, and job seekers. From finding exciting jobs to
+          applying for hackathons, engaging in polls, and networking through messaging, we bring everything you need in
+          one place.</p>
+      </div>
+
+      <div class="footer-services">
+        <h3>Our Services</h3>
+        <ul>
+          <li><span class="material-symbols-outlined">poll</span> <a href="#polls">Polls & Surveys</a></li>
+          <li><span class="material-symbols-outlined">work_outline</span> <a href="#jobs">Job Listings</a></li>
+          <li><span class="material-symbols-outlined">event_available</span> <a href="#hackathons">Hackathons</a></li>
+          <li><span class="material-symbols-outlined">chat</span> <a href="#messaging">Messaging</a></li>
+          <li><span class="material-symbols-outlined">account_circle</span> <a href="#profiles">User Profiles</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><span class="material-symbols-outlined">email</span> support@yourwebsite.com</li>
+          <li><span class="material-symbols-outlined">phone</span> +1 (123) 456-7890</li>
+          <li><span class="material-symbols-outlined">location_on</span> 1234 Innovation Ave, Tech City, Country</li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h3>Stay Connected</h3>
+        <p>Subscribe to our newsletter for the latest updates on jobs, hackathons, and community insights!</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" aria-label="Email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <p>Stay connected and follow us on social media for the latest updates and insights!</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube" class="social-link"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 YourWebsite. Innovating Opportunities. Empowering People.</p>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper', {
+      slidesPerView: 3,
+      direction: getDirection(),
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on: {
+        resize: function () {
+          swiper.changeDirection(getDirection());
+        },
+      },
+    });
+
+    function getDirection() {
+      return window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+    }
+  </script>
+  <script src="home.js"></script>
+</body>
+
+</html>

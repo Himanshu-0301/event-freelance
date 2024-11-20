@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <main class="login-container">
+        <section class="left-side">
+            <h1>Welcome Back</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.</p>
+            <a href="homepage.html"><button class="know-more" aria-label="Learn more about us">Know More</button></a>
+        </section>
+        <section class="right-side">
+            <form id="loginForm" aria-labelledby="loginForm">
+                <div class="username">
+                    <img src="user.svg" alt="User Icon">
+                    <input type="email" placeholder="Enter Username" >
+                </div>
+                <div class="pw">
+                    <img src="lock.svg" alt="Lock Icon">
+                    <input type="password" placeholder="Password" >
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <button type="submit" class="button2">
+                    <a href="home.html">
+                    Login now
+                </button>
+                <div class="login">
+                    <a href="#" class="lost-password">Lost your password?</a>
+                    <a href="signup.html" class="lost-password">Sign Up!</a>
+                </div>
+            </form>
+        </section>
+        <img src="wink.svg" class="wink" alt="Winking Emoji">
+    </main>
+    <script src="login.js"></script>
+</body>
+
+</html>

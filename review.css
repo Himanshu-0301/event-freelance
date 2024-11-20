@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+hr.belowNav,
+hr.afterNav {
+    border: 0.5px solid #ddd;
+}
+
+.fields {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.fields h4 {
+    font-weight: 500;
+    cursor: pointer;
+    color: #333;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #44633F;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.testimonial:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial-photo {
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-content {
+    padding-top: 40px;
+}
+
+.quote {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.rating {
+    color: #f39c12;
+}
+
+footer {
+    background-color: #44633F;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-weight: 500;
+}

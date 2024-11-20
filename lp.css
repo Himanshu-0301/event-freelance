@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: url("") no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 255, 255, 0.027);
+    backdrop-filter: blur(8px);
+    display: flex;
+    color: #ddd;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ac0e0e;
+}
+
+.hero-section {
+    width: 100%;
+    height: 610px;
+    display: flex;
+    background: url(wp7516751-black-mountain-wallpapers.jpg) no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    font-size: 30px;
+    border-bottom: 0.5px solid white;
+    color: white;
+}
+
+.inner-nav {
+    display: flex;
+    gap: 60px;
+}
+
+.upper {
+    display: flex;
+}
+
+.upperbox {
+    width: 20%;
+}
+.upperbox{
+    margin: 10px;
+}
+
+.advone h1{
+    margin-bottom: 10px;
+    font-family: 'Bai Jamjuree';
+}
+.card{
+    border-radius: 25px;
+    background-color: #EFEFEF;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.slide-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
